@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix banking && npm run build --prefix banking"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix banking && npm run build --prefix banking"
   },
   "keywords": [],
   "author": "",
