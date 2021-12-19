@@ -6,7 +6,8 @@ const dotenv = require('dotenv').config()
 
 const app = express()
 app.use(express.json())
-// app.use(express.static(path.join(__dirname, "banking","build")))
+// Uncommented when exit code was 0
+app.use(express.static(path.join(__dirname, "banking","build")))
 
 try {
     // console.log("ENtered try")
