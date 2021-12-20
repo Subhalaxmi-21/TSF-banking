@@ -66,6 +66,8 @@ function Customer() {
     useEffect(() => {
         axios.get('/customers').then(res=>{
             setUser(res.data)
+            console.log(typeof user)
+            console.log(user)
         })
     }, [])
     return (
