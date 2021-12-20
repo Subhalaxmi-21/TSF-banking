@@ -84,9 +84,9 @@ function Customer() {
         <TableBody>
         
         
-        {user?.map(one => 
+        {user?.map(one =>(
                 <Row key={one.name} one={one}/>
-                )}
+                ))}
         
         </TableBody>
         </Table>
